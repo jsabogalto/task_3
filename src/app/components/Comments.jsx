@@ -13,7 +13,7 @@ const SearchPost = () => {
 
     return (
         <div className='text-amber-50 px-4 py-4 flex flex-col justify-center items-center mx-6'>
-            <h2 className='text-2xl'>Filter comments by id</h2>
+            <h2 className='text-2xl'>Filter comments by id</h2> 
             <input className='border border-white rounded-4xl h-10 w-60 py-4 mt-4 text-center text-gray-400'
                 placeholder="Insert ID" value={query} onChange={(event) => setQuery(event.target.value)} />
             <ul className='text-white mt-8'>
